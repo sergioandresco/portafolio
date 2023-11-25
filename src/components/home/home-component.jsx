@@ -11,39 +11,34 @@ export default function HomeComponent(){
     return(
         <div>
 
-            <section className='container w-100 h-100 home--screen'>
+            <section className='container w-100 home--screen'>
 
-                <div className="row">
+                <div className="d-flex flex-column h-100">
 
-                    <div className="col">
+                    <div className="home--container_img">
 
-                        <div className="home--container_img">
-
-                            <img src="/images/serch1.png" alt='Sticker Serch' className='home--img' />
-
-                        </div>
+                        <img src="/images/serch1.png" alt='Sticker Serch' className='home--img' />
 
                     </div>
 
-                    <div className="col">
+                    <div className="home--container_welcome flex-column">
 
-                        <div className="home--container_welcome">
+                        <h1 className={`${InterFont.className} home--text1`}>Hi<img src="/images/wave1.png" alt="hi emoji" className="home--img2" />, I&apos;m Sergio</h1>
 
-                            <h2 className={`${InterFont.className} home--text1`}>Hi<img src="/images/wave1.png" alt="hi emoji" className="home--img2" />, I'm Sergio</h2>
-
-                        </div>
+                        <h2 className={`${InterFont.className} home--text2`}>Web Full Stack Developer</h2>
 
                     </div>
 
-                    <div className="col">
+
+                    {/* <div className="col">
 
                         <div className="home--container_subtittle">
 
-                            <h2 className={`${InterFont.className} home--text2`}>Web Full Stack Developer</h2>
+                            
 
                         </div>
 
-                    </div>
+                    </div> */}
 
 
                 </div>

@@ -1,6 +1,37 @@
 .home{
     
     &--screen{
-        
+        height: 100vh;
+    }
+
+    &--container_img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: -2.3rem;
+    }
+
+    &--container_welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--container_subtittle{
+        display: flex;
+        justify-content: center;
+    }
+
+    &--text1{
+        margin: 0;
+        font-size: 6em;
+    }
+
+    &--text2{
+        font-size: 1.5em;
+    }
+
+    &--img{
+        opacity: 1.9;
+        width: 220px;
     }
 }
