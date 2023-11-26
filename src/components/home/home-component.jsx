@@ -9,11 +9,11 @@ const InterFont = Inter({
 
 export default function HomeComponent(){
     return(
-        <div>
+        <div className='home--container_father'>
 
-            <section className='container w-100 home--screen'>
+            <section className='container home--screen'>
 
-                <div className="d-flex flex-column h-100">
+                <div className="d-flex flex-column home--container_info">
 
                     <div className="home--container_img">
 
