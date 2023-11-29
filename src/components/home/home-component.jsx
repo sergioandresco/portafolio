@@ -43,6 +43,16 @@ export default function HomeComponent(){
 
                 </div>
 
+                <div className="home--container_icon_down">
+
+                    <a href="" className='home--animate_hand'>
+
+                        <img src="/images/hand-down.png" alt="hand down" className='home--item_hand_down'/>
+                        
+                    </a>
+
+                </div>
+
             </section>
 
 
