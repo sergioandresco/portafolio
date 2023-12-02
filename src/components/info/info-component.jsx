@@ -44,7 +44,7 @@ export default function InfoComponent(){
 
 
     return(
-        <div>
+        <div id="info">
 
             <div className="container info--container_father">
 

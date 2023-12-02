@@ -1,3 +1,5 @@
+"use client";
+
 import { Inter } from 'next/font/google'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../../assets/styles/home/home.scss'
@@ -8,8 +10,17 @@ const InterFont = Inter({
 })
 
 export default function HomeComponent(){
+
+    const manejarClick = () => {
+        event.preventDefault();
+        const elemento = document.getElementById('info');
+        if (elemento) {
+          elemento.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return(
-        <div className='home--container_father'>
+        <div className='home--container_father' id="home">
 
             <section className='container home--screen'>
 
@@ -47,7 +58,7 @@ export default function HomeComponent(){
 
                     <a href="" className='home--animate_hand'>
 
-                        <img src="/images/hand-down.png" alt="hand down" className='home--item_hand_down'/>
+                        <img src="/images/hand-down.png" alt="hand down" className='home--item_hand_down' onClick={manejarClick}/>
                         
                     </a>
 
