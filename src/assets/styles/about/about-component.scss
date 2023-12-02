@@ -1,0 +1,36 @@
+$white : white;
+
+.about{
+    &--container_description{
+        display: flex;
+        justify-content: center;
+    }
+
+    &--txt_1{
+        max-width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        justify-content: center;
+        border-right: 1px solid white;
+    }
+
+    &--sub_txt_1{
+        font-size: 1.5em;
+        color: $white;
+    }
+
+    &--txt_2{
+        max-width: 591px;
+        padding-left: 42px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    &--sub_txt_2{
+        font-size: 1.5em;
+        line-height: 29px;
+        margin: 0;
+        color: $white;
+    }
+}
