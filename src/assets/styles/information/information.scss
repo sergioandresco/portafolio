@@ -15,7 +15,7 @@ $white : white;
     &--container_options{
         display: flex;
         gap: 61px;
-        padding-top: 54px;
+        padding-top: 30px;
         justify-content: center;
     }
 
@@ -33,7 +33,7 @@ $white : white;
     }
 
     &--col_1{
-        max-height: 142px;
+        max-height: 94px;
     }
 
     &--container_info_general{
@@ -54,4 +54,36 @@ $white : white;
         max-height: 202px;
     }
 
+    &--name_opt {
+        position: relative;
+    }
+      
+    &--name_opt::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0%;
+        height: 2px;
+        background: white;
+        transition: width 0.3s ease-in-out;
+    }
+      
+    &--subrayado::after {
+        width: 100%;
+    }
+    
 }
+
+.opcion {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .opcion.mostrar {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+   

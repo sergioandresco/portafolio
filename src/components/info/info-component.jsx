@@ -34,10 +34,19 @@ export default function InfoComponent(){
         case 'opcion1':
         contenido = <AboutComponent />;
         break;
+
         case 'opcion2':
         contenido = <ExperienceComponent />;
         break;
-        // ... los casos para las otras opciones
+
+        case 'opcion3':
+        contenido = <ExperienceComponent />;
+        break;
+
+        case 'opcion4':
+        contenido = <ExperienceComponent />;
+        break;
+        
         default:
         contenido = <AboutComponent />;
     }
@@ -56,7 +65,7 @@ export default function InfoComponent(){
 
                             <div className='info--c_opt'>
 
-                                <button className={`${InterFont2.className} info--name_opt`} onClick={() => setOpcionSeleccionada('opcion1')}>About</button>
+                                <button className={`${InterFont2.className} info--name_opt ${opcionSeleccionada === 'opcion1' ? 'info--subrayado' : ''}`} onClick={() => setOpcionSeleccionada('opcion1')}>About</button>
 
                                 {/* <h2 className={`${InterFont2.className} info--name_opt`}>
                                     About
@@ -66,27 +75,19 @@ export default function InfoComponent(){
 
                             <div className='info--c_opt'>
 
-                                <button className={`${InterFont2.className} info--name_opt`} onClick={() => setOpcionSeleccionada('opcion2')}>Experience</button>
-
-                                {/* <h2 className={`${InterFont2.className} info--name_opt`}>
-                                    Experience
-                                </h2> */}
+                                <button className={`${InterFont2.className} info--name_opt ${opcionSeleccionada === 'opcion2' ? 'info--subrayado' : ''}`} onClick={() => setOpcionSeleccionada('opcion2')}>Experience</button>
 
                             </div>
 
                             <div className='info--c_opt'>
 
-                                <h2 className={`${InterFont2.className} info--name_opt`}>
-                                    Projects
-                                </h2>
+                                <button className={`${InterFont2.className} info--name_opt ${opcionSeleccionada === 'opcion3' ? 'info--subrayado' : ''}`} onClick={() => setOpcionSeleccionada('opcion3')}>Projects</button>
 
                             </div>
 
                             <div className='info--c_opt'>
 
-                                <h2 className={`${InterFont2.className} info--name_opt`}>
-                                    Skills
-                                </h2>
+                                <button className={`${InterFont2.className} info--name_opt ${opcionSeleccionada === 'opcion4' ? 'info--subrayado' : ''}`} onClick={() => setOpcionSeleccionada('opcion4')}>Skills</button>
 
                             </div>
 
