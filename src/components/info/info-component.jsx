@@ -9,6 +9,7 @@ import '../../assets/styles/information/information.scss'
 import AboutComponent from '../about/about-component';
 import ExperienceComponent from '../experience/experience-component';
 import ProjectsComponent from '../projects/projects-component';
+import SkillsComponent from '../skills/skills-component';
 
 
 const InterFont = Inter({
@@ -45,7 +46,7 @@ export default function InfoComponent(){
         break;
 
         case 'opcion4':
-        contenido = <ExperienceComponent />;
+        contenido = <SkillsComponent />;
         break;
         
         default:

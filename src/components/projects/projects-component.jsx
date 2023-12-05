@@ -138,11 +138,7 @@ export default function ProjectsComponent(){
                         </div>
                     </a>
                     
-                    
-
                 </div>
-
-                
 
             </div>
 
