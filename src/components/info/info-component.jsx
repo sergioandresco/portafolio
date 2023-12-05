@@ -8,6 +8,7 @@ import '../../assets/styles/information/information.scss'
 //Components for rendering for the menu options
 import AboutComponent from '../about/about-component';
 import ExperienceComponent from '../experience/experience-component';
+import ProjectsComponent from '../projects/projects-component';
 
 
 const InterFont = Inter({
@@ -40,7 +41,7 @@ export default function InfoComponent(){
         break;
 
         case 'opcion3':
-        contenido = <ExperienceComponent />;
+        contenido = <ProjectsComponent />;
         break;
 
         case 'opcion4':

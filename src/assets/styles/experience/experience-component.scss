@@ -1,9 +1,16 @@
 $white : white;
 
 .experience{
+
     &--container_description{
         display: flex;
         max-width: 1228px;
+    }
+
+    &--container_experience_description {
+        display: flex;
+        flex-direction: column;
+        width: 66%;
     }
 
     &--sub_containr_txt_1{
@@ -13,12 +20,20 @@ $white : white;
     }
 
     &--opt_1{
-        font-size: 1.7em;
+        font-size: 1.4em;
         color: $white;
     }
 
     &--container_experience_list{
         display: flex;
+        padding: 12px;
+        border-radius: 14px;
+    }
+
+    &--container_experience_list:hover {
+        box-shadow: 1px 0px 12px 17px rgba(0, 0, 0, 0.2);
+        opacity: 0.9;
+        filter: grayscale(0%);
     }
 
     &--container_experience_description{
@@ -28,23 +43,23 @@ $white : white;
     }
 
     &--sub_txt_1{
-        font-size: 1.7em;
-        color: $white;
-    }
-
-    &--sub_txt_2{
         font-size: 1.4em;
         color: $white;
     }
 
+    &--sub_txt_2{
+        font-size: 1.2em;
+        color: $white;
+    }
+
     &--sub_txt_3{
-        font-size: 1.3em;
+        font-size: 1.2em;
         color: $white;
         line-height: 25px;
     }
 
     &--container_experiente_date{
-        width: 34%;
+        width: 30%;
         display: flex;
     }
 
