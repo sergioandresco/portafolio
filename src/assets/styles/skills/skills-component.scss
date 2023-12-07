@@ -1,15 +1,16 @@
 .skills{
-    
+
     &--container_description {
         display: flex;
         max-width: 1228px;
         justify-content: center;
+        padding-top: 33px;
     }
 
     &--sub_containr_txt_1 {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 60px;
     }
 
     &--icon{
@@ -21,28 +22,60 @@
         grid-template-columns: repeat(6, 1fr);
         justify-content: center;
         align-items: center;
-        gap: 20px;
-    }
-    
-    &--name_icon {
-        display: none;
     }
 
-    &--container_father_icon {
+    &--container_father_icon{
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 97px;
+        height: 97px;
+    }
 
-        &:hover {
-            &--name_icon {
-                display: block;
-            }
+    &--name_icon{
+        display: none;
+    }
+
+    &--container_icon:hover + &--name_icon{
+        display: block;
+        color: white;
+    }
+
+    &--container_icon:hover{
+        img {
+            filter: brightness(0) invert(1);
         }
     }
 
-    &--container_icon{
-        position: relative;
+    &--subcontainer_footer_skills{
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
     }
 
+    &--from{
+        color: white;
+        font-size: 1.3em;
+    }
+
+    &--icon_footer{
+        width: 31px;
+    }
 
 }
+
+// .f1{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .name{
+//     display: none;
+// }
+
+// .c1:hover + .name {
+//     display: block;
+// }
+
