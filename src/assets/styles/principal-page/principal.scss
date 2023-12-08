@@ -1,0 +1,18 @@
+.principal{
+    &--screen{
+        background: linear-gradient(69deg, rgb(16 73 79), rgb(16 73 79 / 51%));
+        background-size: 62px;
+        animation: moveLines 2s linear infinite;
+        position: relative;
+    }
+
+    @keyframes moveLines {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 40px;
+        }
+    }
+
+}

@@ -1,0 +1,133 @@
+.skills{
+
+    &--container_description {
+        display: flex;
+        max-width: 1228px;
+        justify-content: center;
+        padding-top: 33px;
+    }
+
+    &--sub_containr_txt_1 {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    &--icon{
+        width: 68px;
+    }
+
+    &--container_skills{
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--container_father_icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 97px;
+        height: 97px;
+    }
+
+    &--name_icon{
+        display: none;
+    }
+
+    &--container_icon:hover + &--name_icon{
+        display: block;
+        color: white;
+    }
+
+    &--container_icon:hover{
+        img {
+            filter: brightness(0) invert(1);
+        }
+    }
+
+    &--subcontainer_footer_skills{
+        display: flex;
+        gap: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &--from{
+        color: white;
+        font-size: 1.3em;
+    }
+
+    &--icon_footer{
+        width: 31px;
+    }
+
+    @media (min-width: 0px) and (max-width: 844px){
+
+        &--container_description {
+            display: flex;
+            max-width: 100%;
+            justify-content: center;
+            padding-top: 6px;
+        }
+
+        &--container_skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: center;
+            align-items: center;
+        }
+
+        &--sub_containr_txt_1 {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        &--container_father_icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 97px;
+            height: 99px;
+        }
+
+        &--from {
+            color: white;
+            font-size: 1.1em;
+        }
+
+        &--icon_footer {
+            width: 30px;
+        }
+
+    }
+
+    @media (min-width: 0px) and (max-width: 1024px){
+
+        &--container_description {
+            display: flex;
+            max-width: 1228px;
+            justify-content: center;
+            padding-top: 0px;
+        }
+
+        &--sub_containr_txt_1 {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        &--from {
+            color: white;
+            font-size: 1.2em;
+        }
+
+        &--icon_footer {
+            width: 27px;
+        }
+
+    }
+
+}
