@@ -179,18 +179,33 @@
         }
 
         &--sub_txt_1 {
-            font-size: 1.3em;
+            font-size: 1em;
             color: white;
         }
 
         &--sub_txt_2 {
-            font-size: 0.9em;
+            font-size: 0.7em;
             color: white;
             margin-bottom: 6px;
         }
 
         &--githubicon {
             width: 26px;
+        }
+
+    }
+
+    @media (min-width: 0px) and (max-width: 810px){
+
+        &--sub_txt_1 {
+            font-size: 1em;
+            color: white;
+        }
+
+        &--sub_txt_2 {
+            font-size: 0.7em;
+            color: white;
+            margin-bottom: 6px;
         }
 
     }

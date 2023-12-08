@@ -182,4 +182,26 @@ $white : white;
 
     }
 
+    @media (min-width: 0px) and (max-width: 810px){
+
+        &--container_experience_list {
+            display: flex;
+            border-radius: 0;
+            border-bottom: 1px solid #fff;
+            padding: 0px;
+            gap: 0;
+            flex-direction: row;
+            align-items: normal;
+            padding-bottom: 16px;
+            padding-top: 11px;
+        }
+
+        &--sub_txt_3 {
+            font-size: .8em;
+            color: #fff;
+            line-height: 18px;
+            margin: 0;
+        }
+    }
+
 }
