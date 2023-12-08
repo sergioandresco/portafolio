@@ -79,4 +79,14 @@ $white : white;
             color: white;
         }
     }
+
+    @media (min-width: 0px) and (max-width: 1024px){
+
+        &--container_description {
+            display: flex;
+            justify-content: center;
+            padding-top: 28px;
+        }
+
+    }
 }

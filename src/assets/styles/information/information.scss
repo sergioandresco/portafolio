@@ -115,6 +115,20 @@ $white : white;
         }
 
     }
+
+    @media (min-width: 0px) and (max-width: 1024px){
+
+        &--container_info_general {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-left: 17px;
+            padding-right: 17px;
+            border-bottom: 1px solid white;
+            padding-bottom: 20px;
+        }
+
+    }
     
 }
 
