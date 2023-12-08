@@ -1,26 +1,26 @@
 .principal{
     &--screen{
-        background: linear-gradient(69deg, rgb(16 73 79), rgb(16 73 79 / 51%));
-        background-size: 62px;
-        animation: moveLines 2s linear infinite;
-        position: relative;
-    }
-
-    @keyframes moveLines {
-        0% {
-          background-position: 0 0;
-        }
-        100% {
-          background-position: 40px;
-        }
-    }
-
+      background: linear-gradient(69deg, rgb(16 73 79), rgb(16 73 79 / 51%));
+      background-size: 62px;
+      animation: moveLines 4s linear infinite;
+      position: relative;
+  }
+  
+  @keyframes moveLines {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 124px;
+      }
+  }
+ 
     @media (min-width: 0px) and (max-width: 844px){
 
       &--screen {
         background: linear-gradient(69deg, rgb(16, 73, 79), rgba(16, 73, 79, 0.51));
         background-size: 62px;
-        animation: moveLines 2s linear infinite;
+        animation: moveLines 4s linear infinite;
         position: relative;
         width: 100%;
         overflow-x: hidden;

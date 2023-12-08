@@ -63,63 +63,6 @@ $white : white;
         display: flex;
     }
 
-    @media (min-width: 0px) and (max-width: 844px){
-
-        &--container_description {
-            display: flex;
-            max-width: 100%;
-        }
-
-        &--sub_containr_txt_1 {
-            display: flex;
-            flex-direction: column;
-            gap: 0px;
-        }
-
-        &--container_experience_list {
-            display: flex;
-            padding: 0px;
-            border-radius: 0px;
-            border-bottom: 1px solid white;
-            padding-top: 8px;
-        }
-
-        &--container_experiente_date {
-            width: 35%;
-            display: flex;
-            padding-left: 12px;
-        }
-
-        &--container_experience_description {
-            display: flex;
-            flex-direction: column;
-            width: 65%;
-            padding-left: 22px;
-        }
-
-        &--opt_1 {
-            font-size: 1.1em;
-            color: white;
-        }
-
-        &--sub_txt_1 {
-            font-size: 1.1em;
-            color: white;
-        }
-
-        &--sub_txt_2 {
-            font-size: 1em;
-            color: white;
-        }
-
-        &--sub_txt_3 {
-            font-size: 0.8em;
-            color: white;
-            line-height: 25px;
-        }
-
-    }
-
     @media (min-width: 0px) and (max-width: 1024px){
 
         &--sub_containr_txt_1 {
@@ -177,4 +120,62 @@ $white : white;
         }
 
     }
+
+    @media (min-width: 0px) and (max-width: 844px){
+
+        &--container_description {
+            display: flex;
+            max-width: 100%;
+        }
+
+        &--sub_containr_txt_1 {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        &--container_experience_list {
+            display: flex;
+            padding: 0px;
+            border-radius: 0px;
+            border-bottom: 1px solid white;
+            padding-top: 8px;
+        }
+
+        &--container_experiente_date {
+            width: 35%;
+            display: flex;
+            padding-left: 12px;
+        }
+
+        &--container_experience_description {
+            display: flex;
+            flex-direction: column;
+            width: 65%;
+            padding-left: 22px;
+        }
+
+        &--opt_1 {
+            font-size: 1.1em;
+            color: white;
+        }
+
+        &--sub_txt_1 {
+            font-size: 1.1em;
+            color: white;
+        }
+
+        &--sub_txt_2 {
+            font-size: 1em;
+            color: white;
+        }
+
+        &--sub_txt_3 {
+            font-size: 0.8em;
+            color: white;
+            line-height: 25px;
+        }
+
+    }
+
 }
