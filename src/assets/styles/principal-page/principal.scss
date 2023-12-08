@@ -15,4 +15,17 @@
         }
     }
 
+    @media (min-width: 0px) and (max-width: 844px){
+
+      &--screen {
+        background: linear-gradient(69deg, rgb(16, 73, 79), rgba(16, 73, 79, 0.51));
+        background-size: 62px;
+        animation: moveLines 2s linear infinite;
+        position: relative;
+        width: 100%;
+        overflow-x: hidden;
+      }
+
+    }
+
 }
