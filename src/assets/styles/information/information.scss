@@ -129,6 +129,32 @@ $white : white;
         }
 
     }
+
+    @media (min-width: 0px) and (max-width: 810px){
+
+        &--container_options {
+            display: flex;
+            gap: 5px;
+            padding-top: 30px;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        &--name_opt {
+            color: #fff;
+            cursor: pointer;
+            font-size: 1em;
+            background: none;
+            border: none;
+            position: relative;
+        }
+
+        &--name {
+            color: #fff;
+            font-size: 1.3em;
+        }
+
+    }
 }
 
 .opcion {
