@@ -140,12 +140,16 @@ $white : white;
             border-radius: 0px;
             border-bottom: 1px solid white;
             padding-top: 8px;
+            gap: 0px;
+            flex-direction: row;
+            align-items: normal;
         }
 
         &--container_experiente_date {
             width: 35%;
             display: flex;
             padding-left: 12px;
+            border-bottom: 0px;
         }
 
         &--container_experience_description {
