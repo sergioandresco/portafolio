@@ -27,7 +27,7 @@ export default function ProjectsComponent(){
 
                 <div className="projects--sub_containr_txt_1">
 
-                    <a href="" className='projects--links_targets'>
+                    <a href="https://portafolio-gold-eight.vercel.app/" className='projects--links_targets'>
                         <div className="projects--container_experience_list">
 
                             <div className='projects--container_experiente_date'>
@@ -51,7 +51,7 @@ export default function ProjectsComponent(){
                                 </p>
 
                                 <div className="projects--container_github">
-                                    <a href="" className='projects--container_link_git'>
+                                    <a href="https://github.com/sergioandresco/portafolio" className='projects--container_link_git'>
                                         <img src="/images/icons/github.svg" alt="GitHub" className='projects--githubicon' />
                                         <span className={`${InterFont2.className} projects--label_link`}>GitHub</span>
                                     </a>
@@ -64,7 +64,7 @@ export default function ProjectsComponent(){
                         </div>
                     </a>
 
-                    <a href="http://localhost:3000/" className='projects--links_targets'>
+                    <a href="https://github.com/sergioandresco/apiRegisterLogin" className='projects--links_targets'>
                         <div className="projects--container_experience_list">
 
                             <div className='projects--container_experiente_date'>
